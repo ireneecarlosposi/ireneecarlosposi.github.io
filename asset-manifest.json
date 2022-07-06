@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ireneecarlosposi.github.io/static/css/main.9bb0ebee.css",
-    "main.js": "/ireneecarlosposi.github.io/static/js/main.36127203.js",
+    "main.js": "/ireneecarlosposi.github.io/static/js/main.cf7cb779.js",
     "static/js/787.e11afbfa.chunk.js": "/ireneecarlosposi.github.io/static/js/787.e11afbfa.chunk.js",
     "static/media/mare.mp4": "/ireneecarlosposi.github.io/static/media/mare.84a8ff51a98fa3756802.mp4",
     "static/media/TildaScript-Regular.svg": "/ireneecarlosposi.github.io/static/media/TildaScript-Regular.f05b56f2e7028be93d6b.svg",
@@ -17,11 +17,11 @@
     "static/media/top_2.svg": "/ireneecarlosposi.github.io/static/media/top_2.90f782ecf6c3e9db22d1af35d0efe059.svg",
     "index.html": "/ireneecarlosposi.github.io/index.html",
     "main.9bb0ebee.css.map": "/ireneecarlosposi.github.io/static/css/main.9bb0ebee.css.map",
-    "main.36127203.js.map": "/ireneecarlosposi.github.io/static/js/main.36127203.js.map",
+    "main.cf7cb779.js.map": "/ireneecarlosposi.github.io/static/js/main.cf7cb779.js.map",
     "787.e11afbfa.chunk.js.map": "/ireneecarlosposi.github.io/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bb0ebee.css",
-    "static/js/main.36127203.js"
+    "static/js/main.cf7cb779.js"
   ]
 }
