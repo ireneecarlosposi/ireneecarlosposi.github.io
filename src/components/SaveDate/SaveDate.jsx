@@ -40,7 +40,7 @@ const backgroundVideo = {
 function SaveDate() {
   return (
     <div style={rootStyle}>
-      <video playsInline autoPlay muted loop style={{ ...backgroundVideo }}>
+      <video style={{ ...backgroundVideo }} autoPlay loop muted>
         <source src={mare} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
