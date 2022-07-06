@@ -108,7 +108,7 @@ function App() {
   };
 
   return (
-    <HashRouter>
+    <HashRouter basename="https://ireneecarlosposi.github.io/ireneecarlosposi.github.io/">
       <NavigationBar menuList={menuList} handleMenuList={handleMenuList} />
       <Routes>
         <Route path="/home" element={<SaveDate />} />
