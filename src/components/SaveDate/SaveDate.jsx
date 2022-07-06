@@ -40,10 +40,10 @@ const backgroundVideo = {
 function SaveDate() {
   return (
     <div style={rootStyle}>
-      <video playsInline autoPlay muted loop style={{ ...backgroundVideo }}>
+      {/* <video playsInline autoPlay muted loop style={{ ...backgroundVideo }}>
         <source src={mare} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <Grid
         container
         direction="column"
