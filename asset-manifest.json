@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/married-site/static/css/main.55bad31f.css",
-    "main.js": "/married-site/static/js/main.bcbdcef0.js",
+    "main.js": "/married-site/static/js/main.beb45ee4.js",
     "static/js/787.e11afbfa.chunk.js": "/married-site/static/js/787.e11afbfa.chunk.js",
     "static/media/mare.mp4": "/married-site/static/media/mare.84a8ff51a98fa3756802.mp4",
     "static/media/TildaScript-Regular.svg": "/married-site/static/media/TildaScript-Regular.f05b56f2e7028be93d6b.svg",
@@ -17,11 +17,11 @@
     "static/media/top_2.svg": "/married-site/static/media/top_2.90f782ecf6c3e9db22d1af35d0efe059.svg",
     "index.html": "/married-site/index.html",
     "main.55bad31f.css.map": "/married-site/static/css/main.55bad31f.css.map",
-    "main.bcbdcef0.js.map": "/married-site/static/js/main.bcbdcef0.js.map",
+    "main.beb45ee4.js.map": "/married-site/static/js/main.beb45ee4.js.map",
     "787.e11afbfa.chunk.js.map": "/married-site/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55bad31f.css",
-    "static/js/main.bcbdcef0.js"
+    "static/js/main.beb45ee4.js"
   ]
 }
