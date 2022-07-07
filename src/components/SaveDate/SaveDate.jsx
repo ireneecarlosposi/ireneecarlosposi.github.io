@@ -7,7 +7,7 @@ import mare from "../../img/mare.mp4";
 
 const rootStyle = {
   paddingTop: "10em",
-  fontFamily: "Bodoni MT",
+  fontFamily: "Tilda Script",
   fontStyle: "italic",
 };
 const textStyle = {
@@ -51,17 +51,25 @@ function SaveDate() {
         alignItems="center"
         spacing={2}
       >
-        <Grid item>
-          <img src={_top} alt="top" />
-        </Grid>
-        <Grid item>
-          <h1 style={textStyle}>Irene</h1>
-        </Grid>
-        <Grid item>
-          <h1 style={textStyle}>&</h1>
-        </Grid>
-        <Grid item>
-          <h1 style={textStyle}>Carlo</h1>
+        <Grid
+          container
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+          spacing={2}
+        >
+          <Grid item>
+            <img src={_top} alt="top" />
+          </Grid>
+          <Grid item>
+            <div style={textStyle}>Irene</div>
+          </Grid>
+          <Grid item>
+            <div style={textStyle}>&</div>
+          </Grid>
+          <Grid item>
+            <div style={textStyle}>Carlo</div>
+          </Grid>
         </Grid>
         <Grid item>
           <img src={_top} alt="top" style={{ transform: "rotate(180deg)" }} />
