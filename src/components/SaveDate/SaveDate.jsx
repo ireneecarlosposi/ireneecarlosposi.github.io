@@ -55,7 +55,13 @@ function SaveDate() {
           <img src={_top} alt="top" />
         </Grid>
         <Grid item>
-          <h1 style={textStyle}>Carlo & Irene</h1>
+          <h1 style={textStyle}>Irene</h1>
+        </Grid>
+        <Grid item>
+          <h1 style={textStyle}>&</h1>
+        </Grid>
+        <Grid item>
+          <h1 style={textStyle}>Carlo</h1>
         </Grid>
         <Grid item>
           <img src={_top} alt="top" style={{ transform: "rotate(180deg)" }} />
