@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "http://localhost:3000/home/static/css/main.53bd4857.css",
-    "main.js": "http://localhost:3000/home/static/js/main.9395ea4c.js",
-    "static/js/787.e11afbfa.chunk.js": "http://localhost:3000/home/static/js/787.e11afbfa.chunk.js",
-    "static/media/mare.mp4": "http://localhost:3000/home/static/media/mare.84a8ff51a98fa3756802.mp4",
-    "static/media/TildaScript-Regular.svg": "http://localhost:3000/home/static/media/TildaScript-Regular.f05b56f2e7028be93d6b.svg",
-    "static/media/TildaScript-Regular.eot": "http://localhost:3000/home/static/media/TildaScript-Regular.d04302e781e949c51378.eot",
-    "static/media/TildaScript-Regular.ttf": "http://localhost:3000/home/static/media/TildaScript-Regular.cec58d1e1c9b649f4826.ttf",
-    "static/media/Austina Alma.ttf": "http://localhost:3000/home/static/media/Austina Alma.b1c02d7d937ac4aec4ec.ttf",
-    "static/media/TildaScript-Regular.woff": "http://localhost:3000/home/static/media/TildaScript-Regular.f783e117a8d41934a2ff.woff",
-    "static/media/Worldwide.ttf": "http://localhost:3000/home/static/media/Worldwide.d9c289ea89c994e65891.ttf",
-    "static/media/Worldwide Italic.ttf": "http://localhost:3000/home/static/media/Worldwide Italic.9b016eb12695a62e7e21.ttf",
-    "static/media/TildaScript-Regular.woff2": "http://localhost:3000/home/static/media/TildaScript-Regular.ea4411f5397476510bd5.woff2",
-    "static/media/Austina Alma.otf": "http://localhost:3000/home/static/media/Austina Alma.071e21ee4f4a6d06bd0f.otf",
-    "static/media/404.jpeg": "http://localhost:3000/home/static/media/404.21e6aa038d0ace54f3f7.jpeg",
-    "static/media/top_2.svg": "http://localhost:3000/home/static/media/top_2.90f782ecf6c3e9db22d1af35d0efe059.svg",
-    "index.html": "http://localhost:3000/home/index.html",
-    "main.53bd4857.css.map": "http://localhost:3000/home/static/css/main.53bd4857.css.map",
-    "main.9395ea4c.js.map": "http://localhost:3000/home/static/js/main.9395ea4c.js.map",
-    "787.e11afbfa.chunk.js.map": "http://localhost:3000/home/static/js/787.e11afbfa.chunk.js.map"
+    "main.css": "/static/css/main.9674fa4e.css",
+    "main.js": "/static/js/main.8916da33.js",
+    "static/js/787.e11afbfa.chunk.js": "/static/js/787.e11afbfa.chunk.js",
+    "static/media/mare.mp4": "/static/media/mare.84a8ff51a98fa3756802.mp4",
+    "static/media/TildaScript-Regular.svg": "/static/media/TildaScript-Regular.f05b56f2e7028be93d6b.svg",
+    "static/media/TildaScript-Regular.eot": "/static/media/TildaScript-Regular.d04302e781e949c51378.eot",
+    "static/media/TildaScript-Regular.ttf": "/static/media/TildaScript-Regular.cec58d1e1c9b649f4826.ttf",
+    "static/media/Austina Alma.ttf": "/static/media/Austina Alma.b1c02d7d937ac4aec4ec.ttf",
+    "static/media/TildaScript-Regular.woff": "/static/media/TildaScript-Regular.f783e117a8d41934a2ff.woff",
+    "static/media/Worldwide.ttf": "/static/media/Worldwide.d9c289ea89c994e65891.ttf",
+    "static/media/Worldwide Italic.ttf": "/static/media/Worldwide Italic.9b016eb12695a62e7e21.ttf",
+    "static/media/TildaScript-Regular.woff2": "/static/media/TildaScript-Regular.ea4411f5397476510bd5.woff2",
+    "static/media/Austina Alma.otf": "/static/media/Austina Alma.071e21ee4f4a6d06bd0f.otf",
+    "static/media/404.jpeg": "/static/media/404.21e6aa038d0ace54f3f7.jpeg",
+    "static/media/top_2.svg": "/static/media/top_2.90f782ecf6c3e9db22d1af35d0efe059.svg",
+    "index.html": "/index.html",
+    "main.9674fa4e.css.map": "/static/css/main.9674fa4e.css.map",
+    "main.8916da33.js.map": "/static/js/main.8916da33.js.map",
+    "787.e11afbfa.chunk.js.map": "/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53bd4857.css",
-    "static/js/main.9395ea4c.js"
+    "static/css/main.9674fa4e.css",
+    "static/js/main.8916da33.js"
   ]
 }
