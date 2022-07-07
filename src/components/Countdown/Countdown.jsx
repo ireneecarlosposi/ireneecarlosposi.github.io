@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 
-const rootStyle = { fontFamily: "bodoni", paddingTop: "1em" };
+const rootStyle = { fontFamily: "Tilda Script", paddingTop: "1em" };
 const textStyle = {
   color: "#FFF",
   textShadow: "3px 3px #042F3E",

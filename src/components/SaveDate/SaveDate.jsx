@@ -13,13 +13,13 @@ const rootStyle = {
 const textStyle = {
   color: "#EEFBFB",
   textShadow: "3px 3px #042F3E",
-  fontSize: "6em",
+  fontSize: "4em",
   fontWeight: "bold",
 };
 const dateStyle = {
   color: "#EEFBFB",
   textShadow: "3px 3px #042F3E",
-  fontSize: "3em",
+  fontSize: "2em",
   fontWeight: "bold",
 };
 
@@ -63,16 +63,12 @@ function SaveDate() {
           </Grid>
           <Grid item>
             <div style={textStyle}>Irene</div>
-          </Grid>
-          <Grid item>
             <div style={textStyle}>&</div>
-          </Grid>
-          <Grid item>
             <div style={textStyle}>Carlo</div>
           </Grid>
-        </Grid>
-        <Grid item>
-          <img src={_top} alt="top" style={{ transform: "rotate(180deg)" }} />
+          <Grid item>
+            <img src={_top} alt="top" style={{ transform: "rotate(180deg)" }} />
+          </Grid>
         </Grid>
         <Grid item>
           <motion.div
