@@ -1,7 +1,7 @@
 import "./style.css";
 import React, { useEffect, useState } from "react";
 import { HashRouter } from "react-router-dom";
-import { Route, Routes, Redirect } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { NotFound } from "./components/NotFound/NotFound";
 import { SaveDate } from "./components/SaveDate/SaveDate";
 import { NavigationBar } from "./components/NavigationBar/NavigationBar";

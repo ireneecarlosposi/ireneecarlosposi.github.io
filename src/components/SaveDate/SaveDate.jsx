@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 import { motion } from "framer-motion";
 import { Countdown } from "../Countdown/Countdown";
-import _top from "../../img/top_2.svg";
+import _top from "../../img/top.svg";
 import mare from "../../img/mare.mp4";
 
 const rootStyle = {
