@@ -1,7 +1,7 @@
 {
   "name": "married-site",
   "version": "0.1.0",
-  "homepage": "https://ireneecarlosposi.github.io/ireneecarlosposi/",
+  "homepage": "https://ireneecarlosposi.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
