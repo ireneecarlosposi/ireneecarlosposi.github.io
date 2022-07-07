@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "http://localhost:3000/home/static/css/main.53bd4857.css",
-    "main.js": "http://localhost:3000/home/static/js/main.8b2bca2f.js",
+    "main.js": "http://localhost:3000/home/static/js/main.9395ea4c.js",
     "static/js/787.e11afbfa.chunk.js": "http://localhost:3000/home/static/js/787.e11afbfa.chunk.js",
     "static/media/mare.mp4": "http://localhost:3000/home/static/media/mare.84a8ff51a98fa3756802.mp4",
     "static/media/TildaScript-Regular.svg": "http://localhost:3000/home/static/media/TildaScript-Regular.f05b56f2e7028be93d6b.svg",
@@ -17,11 +17,11 @@
     "static/media/top_2.svg": "http://localhost:3000/home/static/media/top_2.90f782ecf6c3e9db22d1af35d0efe059.svg",
     "index.html": "http://localhost:3000/home/index.html",
     "main.53bd4857.css.map": "http://localhost:3000/home/static/css/main.53bd4857.css.map",
-    "main.8b2bca2f.js.map": "http://localhost:3000/home/static/js/main.8b2bca2f.js.map",
+    "main.9395ea4c.js.map": "http://localhost:3000/home/static/js/main.9395ea4c.js.map",
     "787.e11afbfa.chunk.js.map": "http://localhost:3000/home/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53bd4857.css",
-    "static/js/main.8b2bca2f.js"
+    "static/js/main.9395ea4c.js"
   ]
 }
