@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 
-const rootStyle = { fontFamily: "Tilda Script", paddingTop: "1em" };
+const rootStyle = { paddingTop: "1em" }; //fontFamily: "Tilda Script",
 const textStyle = {
   color: "#FFF",
-  textShadow: "3px 3px #042F3E",
+  textShadow: "2px 2px #042F3E",
   fontSize: "2em",
   fontWeight: "bold",
 };
 const timeStyle = {
   fontSize: "2em",
   color: "#FFF",
-  textShadow: "3px 3px #042F3E",
+  textShadow: "2px 2px #042F3E",
 };
 
 function calculateTimeLeft() {

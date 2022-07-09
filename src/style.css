@@ -36,6 +36,7 @@
 }
 
 body {
+  font-family: "Arioso";
   height: 70em;
   background: rgb(148, 228, 252);
   background: linear-gradient(0deg, rgba(148,228,252,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 67%, rgba(215,173,137,1) 100%);

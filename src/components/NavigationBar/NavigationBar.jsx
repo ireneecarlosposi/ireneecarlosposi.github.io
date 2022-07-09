@@ -23,21 +23,33 @@ function NavigationBar(props) {
         <Grid
           container
           direction="row"
-          justify="space-between"
-          justifyContent="center"
+          //justify="space-between"
+          justifyContent="space-between"
           alignItems="center"
           spacing={4}
         >
-          {menuList.map((menuVoice) => (
-            <Grid key={menuVoice.path} item>
-              <Menu
-                key={menuVoice.path}
-                voiceNum={voiceNum++}
-                menuVoice={menuVoice}
-                handleMenuList={handleMenuList}
-              />
+          <Grid item>
+            <h1>I&C</h1>
+          </Grid>
+          <Grid item>
+            <Grid
+              container
+              direction="row"
+              justifyContent="flex-start"
+              spacing={4}
+            >
+              {menuList.map((menuVoice) => (
+                <Grid key={menuVoice.path} item>
+                  <Menu
+                    key={menuVoice.path}
+                    voiceNum={voiceNum++}
+                    menuVoice={menuVoice}
+                    handleMenuList={handleMenuList}
+                  />
+                </Grid>
+              ))}
             </Grid>
-          ))}
+          </Grid>
         </Grid>
       </Toolbar>
     </AppBar>

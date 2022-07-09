@@ -2,48 +2,31 @@ import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 import { motion } from "framer-motion";
 import { Countdown } from "../Countdown/Countdown";
-import _top from "../../img/sbg/top.svg";
-import bg_video from "../../video/mare.mp4";
+import _top from "../../img/svg/top.svg";
+
 
 const rootStyle = {
   paddingTop: "10em",
-  fontFamily: "Tilda Script",
-  fontStyle: "italic",
+  //fontFamily: "Arioso",
 };
 const textStyle = {
   color: "#EEFBFB",
-  textShadow: "3px 3px #042F3E",
+  textShadow: "2px 2px #042F3E",
   fontSize: "4em",
   fontWeight: "bold",
 };
 const dateStyle = {
   color: "#EEFBFB",
-  textShadow: "3px 3px #042F3E",
+  textShadow: "2px 2px #042F3E",
   fontSize: "2em",
   fontWeight: "bold",
 };
 
-const backgroundVideo = {
-  position: "fixed",
-  top: "50%",
-  left: "50%",
-  minWidth: "100%",
-  minHeight: "100%",
-  width: "auto",
-  height: "auto",
-  zIndex: -100,
-  transform: "translateX(-50%) translateY(-50%)",
-  backgroundSize: "cover",
-  transition: "1s opacity",
-};
 
 function SaveDate() {
   return (
     <div style={rootStyle}>
-      <video style={{ ...backgroundVideo }} autoPlay loop muted>
-        <source src={bg_video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      
       <Grid
         container
         direction="column"
@@ -56,7 +39,7 @@ function SaveDate() {
           direction="column"
           justifyContent="center"
           alignItems="center"
-          spacing={2}
+          spacing={1}
         >
           <Grid item>
             <img src={_top} alt="top" />
@@ -69,13 +52,7 @@ function SaveDate() {
           </Grid>
         </Grid>
         <Grid item>
-          <motion.div
-            initial={{ x: 550 }}
-            animate={{ x: 0 }}
-            transition={{ delay: 0.2, type: "spring", stiffness: 50 }}
-          >
-            <h3 style={dateStyle}> 27 May 2023 </h3>
-          </motion.div>
+          <h3 style={dateStyle}> 27 May 2023 </h3>
         </Grid>
       </Grid>
       <Grid
@@ -87,13 +64,7 @@ function SaveDate() {
         spacing={4}
       >
         <Grid item>
-          <motion.div
-            initial={{ y: 1550 }}
-            animate={{ y: 0 }}
-            transition={{ delay: 0.2, type: "spring", stiffness: 50 }}
-          >
-            <Countdown />
-          </motion.div>
+          <Countdown />
         </Grid>
       </Grid>
     </div>
