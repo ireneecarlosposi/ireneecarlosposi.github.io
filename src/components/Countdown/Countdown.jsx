@@ -48,7 +48,7 @@ function Countdown() {
         alignItems="center"
         style={{ paddingTop: "10em", ...rootStyle }}
       >
-        <Grid item style={{ color: "#FFF", fontSize: "2em", fontFamily: "Tilda Script" }}>
+        <Grid item style={{ color: "#FFF", fontSize: "1em", fontFamily: "Tilda Script" }}>
           ~ Just ~
         </Grid>
       </Grid>

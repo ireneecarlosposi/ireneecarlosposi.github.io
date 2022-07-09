@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 import { motion } from "framer-motion";
 import { Countdown } from "../Countdown/Countdown";
-import _top from "../../img/top.svg";
-import mare from "../../img/mare.mp4";
+import _top from "../../img/sbg/top.svg";
+import bg_video from "../../video/mare.mp4";
 
 const rootStyle = {
   paddingTop: "10em",
@@ -41,7 +41,7 @@ function SaveDate() {
   return (
     <div style={rootStyle}>
       <video style={{ ...backgroundVideo }} autoPlay loop muted>
-        <source src={mare} type="video/mp4" />
+        <source src={bg_video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <Grid
@@ -62,9 +62,7 @@ function SaveDate() {
             <img src={_top} alt="top" />
           </Grid>
           <Grid item>
-            <div style={textStyle}>Irene</div>
-            <div style={textStyle}>&</div>
-            <div style={textStyle}>Carlo</div>
+            <div style={textStyle}>Irene & Carlo</div>
           </Grid>
           <Grid item>
             <img src={_top} alt="top" style={{ transform: "rotate(180deg)" }} />
