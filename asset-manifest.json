@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.fefe8348.css",
-    "main.js": "/static/js/main.b0fe9905.js",
+    "main.js": "/static/js/main.c97998aa.js",
     "static/js/787.e11afbfa.chunk.js": "/static/js/787.e11afbfa.chunk.js",
     "static/media/gallipoli.mp4": "/static/media/gallipoli.1905ec47a5ff683d780d.mp4",
     "static/media/TildaScript-Regular.svg": "/static/media/TildaScript-Regular.f05b56f2e7028be93d6b.svg",
+    "static/media/2015.JPG": "/static/media/2015.7b478699cfa484724109.JPG",
+    "static/media/2014.JPG": "/static/media/2014.809550c16abb07562e35.JPG",
     "static/media/TildaScript-Regular.eot": "/static/media/TildaScript-Regular.d04302e781e949c51378.eot",
     "static/media/TildaScript-Regular.ttf": "/static/media/TildaScript-Regular.cec58d1e1c9b649f4826.ttf",
     "static/media/HousegrindPersonalUseOnly.eot": "/static/media/HousegrindPersonalUseOnly.ee2211ea4203309b5e26.eot",
@@ -16,14 +18,16 @@
     "static/media/HousegrindPersonalUseOnly.woff": "/static/media/HousegrindPersonalUseOnly.fdf54e13fa42270b2138.woff",
     "static/media/404.jpeg": "/static/media/404.21e6aa038d0ace54f3f7.jpeg",
     "static/media/ARIR.woff": "/static/media/ARIR.4d343e9e25f07c5f802c.woff",
+    "static/media/fiori.svg": "/static/media/fiori.8496b0278deaf301fdef41b950f9daff.svg",
     "static/media/top.svg": "/static/media/top.ce203b2d549a1357af7f1e3a69f05b4a.svg",
+    "static/media/wave.svg": "/static/media/wave.04df47354f9b38fd3ac4fbce0e9a62b1.svg",
     "index.html": "/index.html",
     "main.fefe8348.css.map": "/static/css/main.fefe8348.css.map",
-    "main.b0fe9905.js.map": "/static/js/main.b0fe9905.js.map",
+    "main.c97998aa.js.map": "/static/js/main.c97998aa.js.map",
     "787.e11afbfa.chunk.js.map": "/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fefe8348.css",
-    "static/js/main.b0fe9905.js"
+    "static/js/main.c97998aa.js"
   ]
 }
