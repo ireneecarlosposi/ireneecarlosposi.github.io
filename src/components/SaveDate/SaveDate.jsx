@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
 import { motion } from "framer-motion";
 import { Countdown } from "../Countdown/Countdown";
+import { Story } from "../Story/Story";
 import _top from "../../img/svg/top.svg";
-
+import wave from "../../img/svg/wave.svg";
 
 const rootStyle = {
   paddingTop: "10em",
@@ -22,11 +23,9 @@ const dateStyle = {
   fontWeight: "bold",
 };
 
-
 function SaveDate() {
   return (
     <div style={rootStyle}>
-      
       <Grid
         container
         direction="column"
@@ -67,6 +66,8 @@ function SaveDate() {
           <Countdown />
         </Grid>
       </Grid>
+      <img src={wave} alt="wave" style={{ paddingTop: "20%"}}/>
+      <Story />
     </div>
   );
 }

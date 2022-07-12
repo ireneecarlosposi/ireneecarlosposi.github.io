@@ -17,7 +17,7 @@ const backgroundVideo = {
   height: "auto",
   zIndex: -100,
   transform: "translateX(-50%) translateY(-50%)",
-  backgroundSize: "cover",
+  backgroundSize: "contain",
   transition: "1s opacity",
 };
 
