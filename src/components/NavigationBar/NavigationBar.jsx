@@ -29,7 +29,7 @@ function NavigationBar(props) {
           spacing={4}
         >
           <Grid item>
-            <h1>I&C</h1>
+            <h1 style={{ textShadow: "1px 1px #8D9BA6" }}>I&C</h1>
           </Grid>
           <Grid item>
             <Grid
