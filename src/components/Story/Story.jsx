@@ -103,7 +103,7 @@ function Story() {
           </Grid>
           <Grid item>
             <h1
-              style={{ marginTop: "-10%", marginLeft: "55vw", fontSize: "3vw" }}
+              style={{ marginTop: "-12%", marginLeft: "55vw", fontSize: "4vw" }}
             >
               2014 - 2015
             </h1>
@@ -111,8 +111,8 @@ function Story() {
               src={fourteen}
               alt="2014"
               style={{
-                width: "27vw",
-                height: "21vw",
+                width: "35vw",
+                height: "29vw",
                 marginLeft: "35vw",
                 ...borderStyle,
               }}
@@ -123,10 +123,10 @@ function Story() {
               src={fifteen}
               alt="2015"
               style={{
-                width: "25vw",
-                height: "25vw",
-                marginTop: "-15vw",
-                marginRight: "15vw",
+                width: "30vw",
+                height: "30vw",
+                marginTop: "-23vw",
+                marginRight: "25vw",
                 ...borderStyle,
               }}
             />
