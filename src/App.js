@@ -5,21 +5,6 @@ import { Route, Routes } from "react-router-dom";
 import { NotFound } from "./components/NotFound/NotFound";
 import { SaveDate } from "./components/SaveDate/SaveDate";
 import { NavigationBar } from "./components/NavigationBar/NavigationBar";
-import bg_video from "./video/gallipoli.mp4";
-
-const backgroundVideo = {
-  position: "fixed",
-  top: "50%",
-  left: "50%",
-  minWidth: "100%",
-  minHeight: "100%",
-  width: "auto",
-  height: "auto",
-  zIndex: -100,
-  transform: "translateX(-50%) translateY(-50%)",
-  backgroundSize: "contain",
-  transition: "1s opacity",
-};
 
 // Style per il menu
 const selectedStyle = {
@@ -124,10 +109,6 @@ function App() {
 
   return (
     <HashRouter>
-      <video style={{ ...backgroundVideo }} playsInline autoPlay loop muted>
-        <source src={bg_video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
       <NavigationBar menuList={menuList} handleMenuList={handleMenuList} />
       <Routes>
         <Route path="/home" element={<SaveDate />} />
