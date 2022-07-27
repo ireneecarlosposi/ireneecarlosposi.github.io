@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.fefe8348.css",
-    "main.js": "/static/js/main.44210d18.js",
+    "main.js": "/static/js/main.f9ff9edf.js",
     "static/js/787.e11afbfa.chunk.js": "/static/js/787.e11afbfa.chunk.js",
-    "static/media/sailboat.mp4": "/static/media/sailboat.fdebe0d16484e750baf5.mp4",
+    "static/media/hero.mp4": "/static/media/hero.8bd344cb8cbbe4616405.mp4",
     "static/media/TildaScript-Regular.svg": "/static/media/TildaScript-Regular.f05b56f2e7028be93d6b.svg",
     "static/media/2015.JPG": "/static/media/2015.7b478699cfa484724109.JPG",
     "static/media/2021.JPG": "/static/media/2021.e06109cf80fd79ffb53c.JPG",
@@ -30,11 +30,11 @@
     "static/media/wave.svg": "/static/media/wave.04df47354f9b38fd3ac4fbce0e9a62b1.svg",
     "index.html": "/index.html",
     "main.fefe8348.css.map": "/static/css/main.fefe8348.css.map",
-    "main.44210d18.js.map": "/static/js/main.44210d18.js.map",
+    "main.f9ff9edf.js.map": "/static/js/main.f9ff9edf.js.map",
     "787.e11afbfa.chunk.js.map": "/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fefe8348.css",
-    "static/js/main.44210d18.js"
+    "static/js/main.f9ff9edf.js"
   ]
 }
