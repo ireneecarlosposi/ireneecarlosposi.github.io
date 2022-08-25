@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.62f2d45d.css",
-    "main.js": "/static/js/main.5d9942a3.js",
+    "main.js": "/static/js/main.14191768.js",
     "static/js/787.e11afbfa.chunk.js": "/static/js/787.e11afbfa.chunk.js",
     "static/media/mare.mp4": "/static/media/mare.a5440a83c48592076bc8.mp4",
-    "static/media/SaveTheDate.png": "/static/media/SaveTheDate.345945b80b3d4d1f1e62.png",
+    "static/media/std4.png": "/static/media/std4.cf86e59355d4bd78611f.png",
     "static/media/AmazingSlab.ttf": "/static/media/AmazingSlab.5798bb84ba2fc14106d2.ttf",
     "static/media/2015.JPG": "/static/media/2015.7b478699cfa484724109.JPG",
     "static/media/2021.JPG": "/static/media/2021.e06109cf80fd79ffb53c.JPG",
@@ -19,7 +19,6 @@
     "static/media/AmsterdamOne.ttf": "/static/media/AmsterdamOne.8cac007d348adcf279c9.ttf",
     "static/media/Rosabelia.ttf": "/static/media/Rosabelia.b34e5627458da61fa66b.ttf",
     "static/media/AmsterdamThree.eot": "/static/media/AmsterdamThree.eac6911196ac908c1cc2.eot",
-    "static/media/quadretto.png": "/static/media/quadretto.7721cfb65e34453db615.png",
     "static/media/AmsterdamThree.ttf": "/static/media/AmsterdamThree.aff3668ed8b17ca911ed.ttf",
     "static/media/2019.JPG": "/static/media/2019.3c7078e8c60f705605a5.JPG",
     "static/media/AmsterdamOne.woff": "/static/media/AmsterdamOne.01d0c9e2a543b7369c34.woff",
@@ -34,11 +33,11 @@
     "index.html": "/index.html",
     "static/media/break2.svg": "/static/media/break2.dbcb18821b0efa77af1aa5d104173842.svg",
     "main.62f2d45d.css.map": "/static/css/main.62f2d45d.css.map",
-    "main.5d9942a3.js.map": "/static/js/main.5d9942a3.js.map",
+    "main.14191768.js.map": "/static/js/main.14191768.js.map",
     "787.e11afbfa.chunk.js.map": "/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62f2d45d.css",
-    "static/js/main.5d9942a3.js"
+    "static/js/main.14191768.js"
   ]
 }
