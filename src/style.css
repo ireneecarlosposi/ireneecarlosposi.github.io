@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Rosabelia";
+  src: url("./assets/fonts/Rosabelia/Rosabelia.eot"); /* IE9*/
+  src: url("./assets/fonts/Rosabelia/Rosabelia.eot?#iefix")
+      format("embedded-opentype"),
+    /* chrome、firefox */
+      url("./assets/fonts/Rosabelia/Rosabelia.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("./assets/fonts/Rosabelia/Rosabelia.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Amazing Slab";
+  src: url("./assets/fonts/AmazingSlab/AmazingSlab.eot"); /* IE9*/
+  src: url("./assets/fonts/AmazingSlab/AmazingSlab.eot?#iefix")
+      format("embedded-opentype"),
+    /* chrome、firefox */
+      url("./assets/fonts/AmazingSlab/AmazingSlab.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("./assets/fonts/AmazingSlab/AmazingSlab.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Amsterdam One";
+  src: url("./assets/fonts/Amsterdam/AmsterdamOne.eot"); /* IE9*/
+  src: url("./assets/fonts/Amsterdam/AmsterdamOne.eot?#iefix")
+      format("embedded-opentype"),
+    /* chrome、firefox */
+      url("./assets/fonts/Amsterdam/AmsterdamOne.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("./assets/fonts/Amsterdam/AmsterdamOne.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Amsterdam Three";
+  src: url("./assets/fonts/Amsterdam/AmsterdamThree.eot"); /* IE9*/
+  src: url("./assets/fonts/Amsterdam/AmsterdamThree.eot?#iefix")
+      format("embedded-opentype"),
+    /* chrome、firefox */
+      url("./assets/fonts/Amsterdam/AmsterdamThree.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("./assets/fonts/Amsterdam/AmsterdamThree.ttf")
+      format("truetype");
+}
+
+body {
+  font-family: "Rosabelia";
+  height: 70em;
+  background: #fff;
+  /* background: linear-gradient(
+    0deg,
+    rgba(148, 228, 252, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 67%,
+    rgba(215, 173, 137, 1) 100%
+  ); */
+}
+
+/*
+Chiaro: #D9D9D2
+Blue: #102B4C
+Blue chiaro: #A4AFC6
+Verde: #829188
+*/
