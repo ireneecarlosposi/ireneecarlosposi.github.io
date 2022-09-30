@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import { NotFound } from "./components/NotFound/NotFound";
 import { SaveDate } from "./components/SaveDate/SaveDate";
 import { Location } from "./components/Location/Location";
+import { ListaNozze } from "./components/ListaNozze/ListaNozze";
 import { NavigationBar } from "./components/NavigationBar/NavigationBar";
 
 // Style per il menu
@@ -27,7 +28,6 @@ const leavedStyle = {
 };
 
 function App() {
-
   /*
   Menu:
   - path: /+<VoceMenu>
@@ -42,6 +42,11 @@ function App() {
     },
     {
       path: "/Location",
+      state: "leave",
+      style: leavedStyle,
+    },
+    {
+      path: "/Lista Nozze",
       state: "leave",
       style: leavedStyle,
     },
@@ -111,6 +116,7 @@ function App() {
       <Routes>
         <Route path="/" element={<SaveDate />} />
         <Route path="/Location" element={<Location />} />
+        <Route path="/Lista%20Nozze" element={<ListaNozze />} />
         <Route element={<NotFound />} />
       </Routes>
     </HashRouter>

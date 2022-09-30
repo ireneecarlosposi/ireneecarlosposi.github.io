@@ -135,9 +135,9 @@ function Location() {
                 title="MadonnaDelCanneto"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.9171198507343!2d17.978831315793105!3d40.05495047940877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1346a65c44b30129%3A0xcccebf80255547db!2sMadonna%20del%20Canneto%20church!5e0!3m2!1sit!2sit!4v1664446525408!5m2!1sit!2sit"
                 style={{ border: 0, ...imgWidth }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </Grid>
           </Grid>
@@ -232,9 +232,9 @@ function Location() {
                 width="600"
                 height="450"
                 style={{ border: 0, ...imgWidth }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </Grid>
           </Grid>
