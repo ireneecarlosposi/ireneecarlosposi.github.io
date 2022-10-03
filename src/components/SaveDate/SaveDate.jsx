@@ -74,7 +74,14 @@ function SaveDate() {
   return (
     <>
       <div style={rootStyle}>
-        <video style={{ ...backgroundVideo }} webkit-playsinline playsInline autoPlay loop muted>
+        <video
+          style={{ ...backgroundVideo }}
+          webkit-playsinline="true"
+          playsInline
+          autoPlay
+          loop
+          muted
+        >
           <source src={bg_video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

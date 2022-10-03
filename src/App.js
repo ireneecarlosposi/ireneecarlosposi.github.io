@@ -85,7 +85,6 @@ function App() {
           }
         }
         if (event === "select") {
-          console.log("selecting");
           newMenuList.push({
             path: path,
             state: "selected",
@@ -106,7 +105,6 @@ function App() {
         }
       }
     });
-    console.log(newMenuList);
     setMenuList(newMenuList);
   };
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-function Menu(props) {
+function MyMenu(props) {
   const { menuVoice, handleMenuList, voiceNum } = props;
   let initY = (voiceNum & 1) === 0 ? -150 : 150;
   return (
@@ -31,4 +31,4 @@ function Menu(props) {
   );
 }
 
-export { Menu };
+export { MyMenu };

@@ -76,9 +76,9 @@ function ListaNozze() {
             width="600"
             height="450"
             style={{ border: 0, ...imgWidth }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </Grid>
       </Grid>
