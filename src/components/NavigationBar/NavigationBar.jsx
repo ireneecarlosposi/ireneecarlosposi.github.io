@@ -53,7 +53,6 @@ function NavigationBar(props) {
           //justify="space-between"
           justifyContent="space-between"
           alignItems="center"
-          spacing={4}
         >
           <Grid item>
             <div
@@ -67,7 +66,7 @@ function NavigationBar(props) {
               I&C
             </div>
           </Grid>
-          {width > 600 ? (
+          {width > 680 ? (
             <Grid item>
               <Grid
                 container

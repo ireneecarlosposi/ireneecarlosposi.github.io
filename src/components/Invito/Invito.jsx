@@ -12,11 +12,11 @@ const rootStyle = {
     "linear-gradient(0deg, rgba(164,175,198,1) 0%, rgba(217,217,210,1) 100%)",
 };
 
-const textStyle = {
-  color: "#102B4C",
-  // textShadow: "2px 2px #102B4C",
-  fontWeight: "bold",
-};
+// const textStyle = {
+//   color: "#102B4C",
+//   // textShadow: "2px 2px #102B4C",
+//   fontWeight: "bold",
+// };
 
 const ImgStyle = {
   marginRight: 0,

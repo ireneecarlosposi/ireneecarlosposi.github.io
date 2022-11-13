@@ -1,11 +1,12 @@
 import "./style.css";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { HashRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
 import { NotFound } from "./components/NotFound/NotFound";
 import { SaveDate } from "./components/SaveDate/SaveDate";
 import { Location } from "./components/Location/Location";
 import { ListaNozze } from "./components/ListaNozze/ListaNozze";
+import { Partecipazioni } from "./components/Partecipazioni/Partecipazioni";
 import { NavigationBar } from "./components/NavigationBar/NavigationBar";
 
 // Style per il menu
@@ -47,6 +48,11 @@ function App() {
     },
     {
       path: "/Lista Nozze",
+      state: "leave",
+      style: leavedStyle,
+    },
+    {
+      path: "/Partecipazioni",
       state: "leave",
       style: leavedStyle,
     },
@@ -115,6 +121,7 @@ function App() {
         <Route path="/" element={<SaveDate />} />
         <Route path="/Location" element={<Location />} />
         <Route path="/Lista%20Nozze" element={<ListaNozze />} />
+        <Route path="/Partecipazioni" element={<Partecipazioni />} />
         <Route element={<NotFound />} />
       </Routes>
     </HashRouter>

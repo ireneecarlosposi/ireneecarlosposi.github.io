@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Grid from "@mui/material/Grid";
 import { SingleBlock } from "./SingleBlock";
 import { DoubleBlock } from "./DoubleBlock";

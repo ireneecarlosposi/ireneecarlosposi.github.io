@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Grid from "@mui/material/Grid";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import { Countdown } from "../Countdown/Countdown";
 import { Story } from "../Story/Story";
 import { Invito } from "../Invito/Invito";
