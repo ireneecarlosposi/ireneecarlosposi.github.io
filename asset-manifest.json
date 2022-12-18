@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.62f2d45d.css",
-    "main.js": "/static/js/main.9df6c14d.js",
+    "main.js": "/static/js/main.99417aa5.js",
     "static/js/787.e11afbfa.chunk.js": "/static/js/787.e11afbfa.chunk.js",
     "static/media/Onde2.mp4": "/static/media/Onde2.cf24c5ec54549366ac01.mp4",
     "static/media/chiesaImg.jpeg": "/static/media/chiesaImg.41163202b5a18153622b.jpeg",
@@ -33,7 +33,6 @@
     "static/media/Rosabelia.eot": "/static/media/Rosabelia.fdc71b6d816db3cfb215.eot",
     "static/media/Rosabelia.woff": "/static/media/Rosabelia.b949a00ffc80b42d68d7.woff",
     "static/media/ringsC.png": "/static/media/ringsC.164218fca3f350e6b77d.png",
-    "static/media/send.png": "/static/media/send.b8c61a969462a4ecc2f1.png",
     "static/media/airplane.png": "/static/media/airplane.9304c736af0a77f7024e.png",
     "static/media/wedding-list.svg": "/static/media/wedding-list.48a0bb49f6d04bad5730d14e38e26c92.svg",
     "static/media/top.svg": "/static/media/top.d352547110598bf0abe6cde229356974.svg",
@@ -41,11 +40,11 @@
     "index.html": "/index.html",
     "static/media/break2.svg": "/static/media/break2.dbcb18821b0efa77af1aa5d104173842.svg",
     "main.62f2d45d.css.map": "/static/css/main.62f2d45d.css.map",
-    "main.9df6c14d.js.map": "/static/js/main.9df6c14d.js.map",
+    "main.99417aa5.js.map": "/static/js/main.99417aa5.js.map",
     "787.e11afbfa.chunk.js.map": "/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62f2d45d.css",
-    "static/js/main.9df6c14d.js"
+    "static/js/main.99417aa5.js"
   ]
 }
