@@ -124,7 +124,7 @@ function Story(props) {
                 color: "#D9D9D2",
               }}
             >
-              Ready to live our
+              Pronti a vivere il nostro
             </h1>
           </Grid>
           <Grid item>
@@ -138,7 +138,7 @@ function Story(props) {
                 paddingBottom: "10vw",
               }}
             >
-              FOREVER!
+              PER SEMPRE!
             </h1>
           </Grid>
         </Grid>

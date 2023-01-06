@@ -2,6 +2,8 @@ import "./style.css";
 import React, { useState } from "react";
 import { HashRouter } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
+import Snackbar from "@mui/material/Snackbar";
+import Alert from "@mui/material/Alert";
 import { NotFound } from "./components/NotFound/NotFound";
 import { SaveDate } from "./components/SaveDate/SaveDate";
 import { Location } from "./components/Location/Location";
@@ -35,6 +37,8 @@ function App() {
   - state: selected | leave
   - style: selectedStyle | leavedStyle
   */
+  const [message, setMessage] = useState("");
+  const [popen, setPopen] = React.useState(false);
   const [menuList, setMenuList] = useState([
     {
       path: "/",
@@ -57,6 +61,23 @@ function App() {
       style: leavedStyle,
     },
   ]);
+
+  const sendPartecipation = () => {
+    setMessage({ msg: `Partecipazione inviata.`, type: "success" });
+    handleSnackbarsClick();
+  };
+
+  const handleSnackbarsClick = () => {
+    setPopen(true);
+  };
+
+  const handleSnackbarsClose = (event, reason) => {
+    if (reason === "clickaway") {
+      return;
+    }
+
+    setPopen(false);
+  };
 
   // Per ogni voce del menu decide se cambiare lo stato e lo style
   // o se si trova nello stato selected non succede nulla
@@ -117,11 +138,24 @@ function App() {
   return (
     <HashRouter>
       <NavigationBar menuList={menuList} handleMenuList={handleMenuList} />
+      <Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+        open={popen}
+        autoHideDuration={6000}
+        onClose={handleSnackbarsClose}
+      >
+        <Alert onClose={handleSnackbarsClose} severity={message.type}>
+          {message.msg}
+        </Alert>
+      </Snackbar>
       <Routes>
         <Route path="/" element={<SaveDate />} />
         <Route path="/Location" element={<Location />} />
         <Route path="/Lista%20Nozze" element={<ListaNozze />} />
-        <Route path="/Partecipazioni" element={<Partecipazioni />} />
+        <Route
+          path="/Partecipazioni"
+          element={<Partecipazioni sendPartecipation={sendPartecipation} />}
+        />
         <Route element={<NotFound />} />
       </Routes>
     </HashRouter>

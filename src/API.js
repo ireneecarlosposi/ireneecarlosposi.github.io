@@ -21,7 +21,13 @@ const sendPartecipazione = (partecipazione) => {
             : "comunico che parteciperò"
         } al vostro matrimonio, di seguito alcuni dati:\nNumero Partecipanti: ${
           partecipazione.npartecipanti
-        }.\nAllergie: ${partecipazione.allergie}.\nInoltre, ${
+        }.\nAllergie: ${partecipazione.allergie}.\nTrasporto: ${
+          partecipazione.mezzo === 0
+            ? "In auto"
+            : partecipazione.mezzo === 1
+            ? "In treno"
+            : "In aereo"
+        }\nInoltre, ${
           partecipazione.notte === 1
             ? "Venendo da fuori farebbe utile il pernottamento per la notte del 27"
             : "Non c'è bisogno del pernottamento"
