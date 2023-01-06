@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.62f2d45d.css",
-    "main.js": "/static/js/main.c4e816c3.js",
+    "main.js": "/static/js/main.2f7767bc.js",
     "static/js/787.e11afbfa.chunk.js": "/static/js/787.e11afbfa.chunk.js",
     "static/media/Onde2.mp4": "/static/media/Onde2.cf24c5ec54549366ac01.mp4",
     "static/media/chiesaImg.jpeg": "/static/media/chiesaImg.41163202b5a18153622b.jpeg",
@@ -16,6 +16,7 @@
     "static/media/2020.JPG": "/static/media/2020.2f21542378eb2c0a0035.JPG",
     "static/media/2014.JPG": "/static/media/2014.809550c16abb07562e35.JPG",
     "static/media/AmazingSlab.woff": "/static/media/AmazingSlab.54c6384954c268acb86e.woff",
+    "static/media/lv.jpg": "/static/media/lv.a6b3a8b1666955e9bb50.jpg",
     "static/media/AmazingSlab.eot": "/static/media/AmazingSlab.9d410888fa5aa5ce9e93.eot",
     "static/media/AmsterdamOne.eot": "/static/media/AmsterdamOne.5dec6d64f3ba1e43af5d.eot",
     "static/media/2017.JPG": "/static/media/2017.3fb710c3c39e2c7cca1b.JPG",
@@ -40,11 +41,11 @@
     "index.html": "/index.html",
     "static/media/break2.svg": "/static/media/break2.dbcb18821b0efa77af1aa5d104173842.svg",
     "main.62f2d45d.css.map": "/static/css/main.62f2d45d.css.map",
-    "main.c4e816c3.js.map": "/static/js/main.c4e816c3.js.map",
+    "main.2f7767bc.js.map": "/static/js/main.2f7767bc.js.map",
     "787.e11afbfa.chunk.js.map": "/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62f2d45d.css",
-    "static/js/main.c4e816c3.js"
+    "static/js/main.2f7767bc.js"
   ]
 }
