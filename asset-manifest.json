@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.62f2d45d.css",
-    "main.js": "/static/js/main.dac46156.js",
+    "main.js": "/static/js/main.42d0ba43.js",
     "static/js/787.e11afbfa.chunk.js": "/static/js/787.e11afbfa.chunk.js",
     "static/media/Onde2.mp4": "/static/media/Onde2.cf24c5ec54549366ac01.mp4",
     "static/media/chiesaImg.jpeg": "/static/media/chiesaImg.41163202b5a18153622b.jpeg",
@@ -28,6 +28,7 @@
     "static/media/villaImg.jpeg": "/static/media/villaImg.9737701acdea57f68c20.jpeg",
     "static/media/AmsterdamOne.woff": "/static/media/AmsterdamOne.01d0c9e2a543b7369c34.woff",
     "static/media/AmsterdamThree.woff": "/static/media/AmsterdamThree.63939e4691700d7edd62.woff",
+    "static/media/tamburini.png": "/static/media/tamburini.49ce8e85be94df742161.png",
     "static/media/404.jpeg": "/static/media/404.21e6aa038d0ace54f3f7.jpeg",
     "static/media/fiori.svg": "/static/media/fiori.5d81d2e6b8183836688aab421e8baf33.svg",
     "static/media/iban.png": "/static/media/iban.cfbaa1d065ac15a6d264.png",
@@ -41,11 +42,11 @@
     "index.html": "/index.html",
     "static/media/break2.svg": "/static/media/break2.dbcb18821b0efa77af1aa5d104173842.svg",
     "main.62f2d45d.css.map": "/static/css/main.62f2d45d.css.map",
-    "main.dac46156.js.map": "/static/js/main.dac46156.js.map",
+    "main.42d0ba43.js.map": "/static/js/main.42d0ba43.js.map",
     "787.e11afbfa.chunk.js.map": "/static/js/787.e11afbfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62f2d45d.css",
-    "static/js/main.dac46156.js"
+    "static/js/main.42d0ba43.js"
   ]
 }
